@@ -1,0 +1,14 @@
+body {
+  background-color: #0069d3;
+  color: #6cc4ec;
+}
+
+body {
+  background-color: #7c3902;
+  /* Ajoutez d'autres styles pour le dark mode si nécessaire */
+}
+
+body a {
+  color: #3498db;
+}
+
