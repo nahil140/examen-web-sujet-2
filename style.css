@@ -4,17 +4,18 @@ body {
 }
 
 body {
-  background-color: #7c3902;
+  background-color: #467937;
 }
 
 body a {
   color: #3498db;
+  
 }
 
 .styled {
   border: 0;
   line-height: 2.5;
-  padding: 0 20px;
+  padding: 0 5px;
   font-size: 1rem;
   text-align: center;
   color: white;
@@ -47,5 +48,61 @@ body a {
   font-size: 2rem;
   text-align: center;
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
- 
+  background-color: rgb(35, 153, 189);
+  font: 70px/70px sans-serif;
+  
+}
+
+  .pi {
+  font: 20px/20px sans-serif;
+
+  }
+  
+  .pip {
+  font: 40px/40px sans-serif;
+
+  }
+  
+  .ppi {
+  font: 60px/50px sans-serif;
+  text-align: center;
+
+  }
+
+  .style {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+  background-color: rgb(32, 29, 209);
+  background-image: linear-gradient(
+    to top left,
+    rgb(0 0 0 / 0.2),
+    rgb(0 0 0 / 0.2) 30%,
+    transparent
+  );
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 0.6),
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);
+}
+
+.style:hover {
+  background-color: rgb(197, 186, 27);
+}
+
+.style:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 0.6),
+    inset 2px 2px 3px rgb(0 0 0 / 0.6);
+}
+
+
+
+.box {
+  display: grid;
+  flex-direction: row;
+}
