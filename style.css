@@ -103,6 +103,6 @@ body a {
 
 
 .box {
-  display: grid;
-  flex-direction: row;
+  display: flex-inline;
+  flex: row-reverse;
 }
